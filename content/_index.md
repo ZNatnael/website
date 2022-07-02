@@ -56,5 +56,4 @@ testimonials:
       picture: images/testimonial/image-2.png
       name: Devid Sailio
       title: Co-Founder @ TailGrids 
-    
 ---

@@ -7,7 +7,7 @@ public_folder: /images/uploads
 collections:
   - name: blog
     label: Blog
-    folder: data/blog
+    folder: content/blog
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -16,3 +16,51 @@ collections:
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Featured Image, name: featured_image, widget: image }
       - { label: Body, name: body, widget: markdown }
+  - name: pages
+    label: Pages
+    files:
+      - name: home
+        label: Home
+        file: content/_index.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Name, name: name, widget: string }
+          - { label: Profession, name: profession, widget: string }
+          - { label: Summary, name: summary, widget: text }
+          - { label: Profile Image, name: profile_widget, widget: image }
+          - { label: About Me Title, name: about_me_title, widget: string }
+          - { label: About Me, name: about_me_description, widget: text }
+          - { label: Connect With Me Title, name: connect_with_me_title, widget: string }
+          - { label: Connect With Me, name: connect_with_me_description, widget: text }
+          - { label: Services Description, name: my_services_description, widget: text }
+          - label: Services
+            name: services
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Icon, name: icon, widget: text }
+          - { label: Happy Clients Description, name: happy_clients_description, widget: text }
+          - label: Clients
+            name: clients
+            widget: list
+            fields:
+              - { label: Logo, name: logo, widget: image }
+              - { label: URL, name: url, widget: string }
+          - label: Education & Experience
+            name: education_and_experiences
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Where, name: where, widget: string }
+              - { label: When, name: when, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Testimonials
+            name: testimonials
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Picture, name: picture, widget: image }
+              - { label: Logo, name: logo, widget: image }
+              - { label: Description, name: description, widget: text }

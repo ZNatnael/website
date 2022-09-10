@@ -1,21 +1,49 @@
 ---
-about_me_title: Better design, better experience & better results.
+about_me_title: Sharing My Experience
 profile_image: images/hero/nati-red.png
-title: Natnael Yared
-name: Natnael Yared
-profession: Public Relations Officer
-summary: Nisi dolor incididunt nisi nisi et mollit incididunt pariatur esse ut
-  dolore eiusmod. Exercitation consequat eiusmod occaecat ea aliqua ex
-  exercitation fugiat sunt ipsum eiusmod.
+title: Natnael Yared | Z Natnael
+name: Natnael Yared | Z Natnael
+profession: Digital Creator
+summary: A digital creator who strives to improve people's lives via the use of
+  technology; in charge of creating visually appealing and engaging content
+  which are developed to educate, entertain, motivate, experience and delight a
+  linked digital audience. I use my digital skills to develop creative content,
+  blogs, marketing copy, online posts, podcasts, videos, graphic designs, and
+  technology reviews in collaboration with my energetic team.
 profile_widget: /images/uploads/b1-01.png
-about_me_description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quisquam.
+about_me_description: >-
+  Passionate, creative, and performance-driven marketing professional and Civil
+  Engineer with over 5 years of experience in digital creation across CPG, media
+  & entertainment, social media management, and branding.
+
+  My abilities focus on Digital creativity, Content development, Digital marketing, and brand management. Aside from my career, finding something new to learn and enjoy is essential to me, whether it’s a challenging workout routine, making YouTube videos, or Disk Jockeying; my experiences help me in developing and nurturing my strength in the digital world and creativity. My ability to understand technology is continually evolving and this changing environment is what keeps me motivated.
 connect_with_me_title: Connect with me
-connect_with_me_description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quisquam.
-my_services_description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quisquam
+connect_with_me_description: Want to work together and create amazing products with me?
+my_services_description: Ready to lift off with enhanced marketing techniques?
+  Welcome to z Natnael creatives, where Strategy, Marketing, Development, and
+  Creative come together for your digital needs. Being a marketing agency, our
+  full-service team brings planning and performance together under one roof; so,
+  you benefit from cohesive assets from start to finish.
 services:
-  - title: User Research
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-      quisquam.
+  - title: Digital Marketing
+    description: >-
+      Digital marketing is driven by data, freeing you up to focus on the
+      bigger-picture thinking and scaling your startup; In a wildly competitive
+      marketplace, you want a team on your side that can get the most out of
+      every marketing dollar spent.
+
+
+      Market research & strategy
+
+      Pay-Per-Click advertising
+
+      Display advertising
+
+      Remarketing campaigns
+
+      Video advertising
+
+      Social media advertising
     icon: <svg width="35" height="33" viewBox="0 0 35 33" class="a1O"><path
       d="M22.8335 14.0001C27.0002 14.0001 30.3335 17.3334 30.3335
       21.5001C30.3335 22.9668 29.9168 24.3501 29.1835 25.5001L34.3168
@@ -36,9 +64,23 @@ services:
       0.666748ZM0.333496 27.3334V24.0001C0.333496 20.4668 5.85016 17.5667
       12.8335 17.3334C12.3002 18.6334 12.0002 20.0334 12.0002 21.5001C12.0002
       23.6501 12.6335 25.6668 13.6668 27.3334H0.333496Z" /></svg>
-  - title: Visual Design
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-      quisquam.
+  - title: Content Marketing
+    description: >-
+      Our dedicated team of writers, editors, and marketers are here to create
+      compelling brand stories that connect with your audiences.
+
+
+      Web writing & editing
+
+      Content strategy
+
+      Brand storytelling
+
+      Blog post writing
+
+      Whitepapers
+
+      Press releases
     icon: <svg width="36" height="36" viewBox="0 0 36 36" class="a1O"><path
       d="M18.6668 28.6666C18.6668 28.1666 18.6668 27.4999 18.8335
       26.9999H10.3335V23.6666H7.00016V10.3333H10.3335V6.99992H23.6668V10.3333H27.0002V18.8333C27.5002
@@ -51,9 +93,22 @@ services:
       30.3333H3.66683V26.9999H7.00016V30.3333ZM30.3335
       21.9999V26.9999H35.3335V30.3333H30.3335V35.3333H27.0002V30.3333H22.0002V26.9999H27.0002V21.9999H30.3335Z"
       /></svg>
-  - title: User Testing
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-      quisquam.
+  - title: Marketing campaigns
+    description: >-
+      It is said that good marketing is like sanctioned vandalism. You want
+      people to notice it, engage with it, and have opinions about it.
+      Otherwise, all that work is irrelevant.
+
+
+      Marketing strategy
+
+      Campaign planning
+
+      Buyer behaviors
+
+      Qualitative & quantitative research
+
+      Analytics & Evaluation
     icon: <svg width="40" height="25" viewBox="0 0 40 25" class="a1O"><path d="M20
       0.166748C21.5471 0.166748 23.0308 0.78133 24.1248 1.87529C25.2188 2.96925
       25.8333 4.45298 25.8333 6.00008C25.8333 7.54718 25.2188 9.03091 24.1248
@@ -77,20 +132,43 @@ services:
       21.4167V24.3334H0ZM40 24.3334H34.1667V21.4167C34.1667 19.7001 33.5667
       18.1334 32.5833 17.0001C36.85 17.5667 40 19.5167 40 21.8334V24.3334Z"
       /></svg>
-  - title: Prototype
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-      quisquam.
+  - title: Social-media & influencer marketing
+    description: >-
+      Social media gives your brand a voice like never before. In a constantly
+      changing landscape, we'll make sure your brand is part of the
+      conversation.
+
+
+      Social media strategy
+
+      Content planning & implementation
+
+      Community management
+
+      Influencer marketing
+
+      Engagement tracking & analytics
     icon: <svg width="30" height="30" viewBox="0 0 30 30" class="a1O"><path
       d="M16.6667 0V13.3333H30V0H16.6667ZM0 30H13.3333V16.6667H0V30ZM0
       0V13.3333H13.3333V0H0ZM16.6667
       21.6667H21.6667V16.6667H25V21.6667H30V25H25V30H21.6667V25H16.6667V21.6667Z"
       /></svg>
-  - title: Title 333
+  - title: Video & media production
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-      quisquam.
+      With backgrounds in film and television, our team of creatives has the
+      experience you need to create compelling and engaging video and commercial
+      media.
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quisquam
+
+      Storyboarding & writing
+
+      Commercial production
+
+      Stock footage & music access
+
+      Video & testimonial films
+
+      Digital channel placement
     icon: >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
       stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

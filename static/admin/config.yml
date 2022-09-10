@@ -30,9 +30,21 @@ collections:
           - { label: Profile Image, name: profile_widget, widget: image }
           - { label: About Me Title, name: about_me_title, widget: string }
           - { label: About Me, name: about_me_description, widget: text }
-          - { label: Connect With Me Title, name: connect_with_me_title, widget: string }
-          - { label: Connect With Me, name: connect_with_me_description, widget: text }
-          - { label: Services Description, name: my_services_description, widget: text }
+          - {
+              label: Connect With Me Title,
+              name: connect_with_me_title,
+              widget: string,
+            }
+          - {
+              label: Connect With Me,
+              name: connect_with_me_description,
+              widget: text,
+            }
+          - {
+              label: Services Description,
+              name: my_services_description,
+              widget: text,
+            }
           - label: Services
             name: services
             widget: list
@@ -40,7 +52,7 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Description, name: description, widget: text }
               - { label: Icon, name: icon, widget: text }
-          - { label: Happy Clients Description, name: happy_clients_description, widget: text }
+          # - { label: Happy Clients Description, name: happy_clients_description, widget: text }
           - label: Clients
             name: clients
             widget: list

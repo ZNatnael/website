@@ -51,28 +51,28 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Description, name: description, widget: text }
-              - { label: Icon, name: icon, widget: text }
+              - { label: Logo, name: logo, widget: image }
           # - { label: Happy Clients Description, name: happy_clients_description, widget: text }
-          - label: Clients
-            name: clients
-            widget: list
-            fields:
-              - { label: Logo, name: logo, widget: image }
-              - { label: URL, name: url, widget: string }
-          - label: Education & Experience
-            name: education_and_experiences
-            widget: list
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Where, name: where, widget: string }
-              - { label: When, name: when, widget: string }
-              - { label: Description, name: description, widget: text }
-          - label: Testimonials
-            name: testimonials
-            widget: list
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: Picture, name: picture, widget: image }
-              - { label: Logo, name: logo, widget: image }
-              - { label: Description, name: description, widget: text }
+          # - label: Clients
+          #   name: clients
+          #   widget: list
+          #   fields:
+          #     - { label: Logo, name: logo, widget: image }
+          #     - { label: URL, name: url, widget: string }
+          # - label: Education & Experience
+          #   name: education_and_experiences
+          #   widget: list
+          #   fields:
+          #     - { label: Title, name: title, widget: string }
+          #     - { label: Where, name: where, widget: string }
+          #     - { label: When, name: when, widget: string }
+          #     - { label: Description, name: description, widget: text }
+          # - label: Testimonials
+          #   name: testimonials
+          #   widget: list
+          #   fields:
+          #     - { label: Name, name: name, widget: string }
+          #     - { label: Title, name: title, widget: string }
+          #     - { label: Picture, name: picture, widget: image }
+          #     - { label: Logo, name: logo, widget: image }
+          #     - { label: Description, name: description, widget: text }

@@ -11,7 +11,6 @@
             </span>
           </h1>
           <h2 class="a1J a1K a1Q md:a1V a1H">
-            Professional
             <span class="aI">{{ .Params.profession }}</span>
           </h2>
           <p class="aB[470px] a1J a1K aH a1R a35">
@@ -228,80 +227,6 @@
         </svg>
       </div>
     </div>
-  </div>
-</section>
-
-
-<section id="education" class="a1p[120px] az ac a20">
-  <div class="a9">
-    <div class="a1r a1s[#E9ECF8] a1q[70px]">
-      <div class="a6 a1t aa[-16px]">
-        <div class="a5 ad">
-          <div class="aB[600px] a21 a22 a3g[50px]">
-            <span class="a1P a1Q aJ ag a1Y">
-              Education & Experience
-            </span>
-            <h2 class="a1f aI a1B sm:a1C md:a2k[45px] a1H">
-              My Resume
-            </h2>
-            <p class="a1J a1Q a1K">
-              There are many variations of passages of Lorem Ipsum available
-              but the majority have suffered alteration in some form.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="ac a2q">
-        <span class="a1 a2 ag a3H lg:a3n/2 as[1px] a1y a3o[#d7dfff]"></span>
-        <div class="a6 a1t a2h">
-          {{ range $index, $_ := .Params.education_and_experiences }}
-          <div class="a5 lg:a2i/2 ad">
-            <div
-              class="lg:aB[428px] xl:aB[490px] a5 a3J sm:a3K lg:aR ac a2g {{ if (modBool $index 2) }} a3I lg:a1e lg:a1M lg:a2b {{ else }} lg:a3P {{ end }}">
-              <span
-                class="a1 ak a3 a2j a3M a1i az a3N a3f {{ if (modBool $index 2) }} lg:a2C lg:a3L {{ else }} lg:a3Q {{ end }}"></span>
-              <h3 class="a1P a1V aI a1L">
-                {{ .title }}
-              </h3>
-              <p class="a1P aH a1K a28">
-                {{ .where }}
-              </p>
-              <span class="aL a7 a1u aK ad a1i a1h a1g a3O a1P a1H">
-                {{ .when }}
-              </span>
-              <p class="a1J aH a1K">
-                {{ .description }}
-              </p>
-            </div>
-          </div>
-          <div class="a5 lg:a2i/2 ad"></div>
-          <div class="a5 lg:a2i/2 ad"></div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <span class="a1 aZ a2 a3R">
-      <svg width="455" height="1307" viewBox="0 0 455 1307" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect opacity="0.08" width="332.05" height="1060.35"
-          transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1031.2 139.128)" fill="url(#paint0_linear_0:1)" />
-        <rect opacity="0.08" width="509.849" height="1060.35"
-          transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1293.7 635.81)" fill="url(#paint1_linear_0:1)" />
-        <defs>
-          <linearGradient id="paint0_linear_0:1" x1="166.025" y1="0" x2="166.025" y2="1060.35"
-            gradientUnits="userSpaceOnUse">
-            <stop stop-color="#4A6CF7" />
-            <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
-          </linearGradient>
-          <linearGradient id="paint1_linear_0:1" x1="254.924" y1="0" x2="254.924" y2="1060.35"
-            gradientUnits="userSpaceOnUse">
-            <stop stop-color="#4A6CF7" />
-            <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
-          </linearGradient>
-        </defs>
-      </svg>
-    </span>
   </div>
 </section>
 

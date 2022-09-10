@@ -5,29 +5,40 @@ happy_clients_description: Commodo qui commodo aliqua aute. Duis voluptate anim
   velit adipisicing qui laboris quis cupidatat mollit. Laborum mollit irure
   occaecat veniam esse. Ipsum consectetur cillum eu do nostrud ex tempor duis et
   veniam cupidatat cillum enim.
-title: Natnael Yared | Z Natnael
-name: Natnael Yared | Z Natnael
-profession: Digital Creator
 summary: A digital creator who strives to improve people's lives via the use of
   technology; in charge of creating visually appealing and engaging content
   which are developed to educate, entertain, motivate, experience and delight a
   linked digital audience. I use my digital skills to develop creative content,
   blogs, marketing copy, online posts, podcasts, videos, graphic designs, and
   technology reviews in collaboration with my energetic team.
-profile_widget: /images/uploads/b1-01.png
 about_me_description: >-
   Passionate, creative, and performance-driven marketing professional and Civil
   Engineer with over 5 years of experience in digital creation across CPG, media
   & entertainment, social media management, and branding.
 
   My abilities focus on Digital creativity, Content development, Digital marketing, and brand management. Aside from my career, finding something new to learn and enjoy is essential to me, whether it’s a challenging workout routine, making YouTube videos, or Disk Jockeying; my experiences help me in developing and nurturing my strength in the digital world and creativity. My ability to understand technology is continually evolving and this changing environment is what keeps me motivated.
-connect_with_me_title: Connect with me
+clients:
+  - logo: images/brands/uideck.svg
+    url: https://uideck.com
+  - logo: images/brands/tailgrids.svg
+    url: https://tailgrids.com
+  - logo: images/brands/lineicons.svg
+    url: https://lineicons.com
+  - logo: images/brands/ayroui.svg
+    url: https://ayroui.com
+education_and_experiences: []
+title: Natnael Yared | Z Natnael
+name: Natnael Yared | Z Natnael
+profession: Digital Creator
+profile_widget: /images/uploads/b1-01.png
 connect_with_me_description: Want to work together and create amazing products with me?
 my_services_description: Ready to lift off with enhanced marketing techniques?
   Welcome to z Natnael creatives, where Strategy, Marketing, Development, and
   Creative come together for your digital needs. Being a marketing agency, our
   full-service team brings planning and performance together under one roof; so,
   you benefit from cohesive assets from start to finish.
+testimonials: []
+connect_with_me_title: Connect with me
 services:
   - title: Digital Marketing
     description: >-
@@ -68,6 +79,7 @@ services:
       0.666748ZM0.333496 27.3334V24.0001C0.333496 20.4668 5.85016 17.5667
       12.8335 17.3334C12.3002 18.6334 12.0002 20.0334 12.0002 21.5001C12.0002
       23.6501 12.6335 25.6668 13.6668 27.3334H0.333496Z" /></svg>
+    logo: /images/uploads/digital-marketing.png
   - title: Content Marketing
     description: >-
       Our dedicated team of writers, editors, and marketers are here to create
@@ -97,6 +109,7 @@ services:
       30.3333H3.66683V26.9999H7.00016V30.3333ZM30.3335
       21.9999V26.9999H35.3335V30.3333H30.3335V35.3333H27.0002V30.3333H22.0002V26.9999H27.0002V21.9999H30.3335Z"
       /></svg>
+    logo: /images/uploads/content-marketing.png
   - title: Marketing campaigns
     description: >-
       It is said that good marketing is like sanctioned vandalism. You want
@@ -136,6 +149,7 @@ services:
       21.4167V24.3334H0ZM40 24.3334H34.1667V21.4167C34.1667 19.7001 33.5667
       18.1334 32.5833 17.0001C36.85 17.5667 40 19.5167 40 21.8334V24.3334Z"
       /></svg>
+    logo: /images/uploads/marketing-campaign.png
   - title: Social-media & influencer marketing
     description: >-
       Social media gives your brand a voice like never before. In a constantly
@@ -157,6 +171,7 @@ services:
       0V13.3333H13.3333V0H0ZM16.6667
       21.6667H21.6667V16.6667H25V21.6667H30V25H25V30H21.6667V25H16.6667V21.6667Z"
       /></svg>
+    logo: /images/uploads/influencer-and-social-media-marketing.png
   - title: Video & media production
     description: >-
       With backgrounds in film and television, our team of creatives has the
@@ -178,15 +193,5 @@ services:
       fill="currentColor" class="w-5 h-5">
         <path fill-rule="evenodd" d="M2 4.25A2.25 2.25 0 014.25 2h11.5A2.25 2.25 0 0118 4.25v8.5A2.25 2.25 0 0115.75 15h-3.105a3.501 3.501 0 001.1 1.677A.75.75 0 0113.26 18H6.74a.75.75 0 01-.484-1.323A3.501 3.501 0 007.355 15H4.25A2.25 2.25 0 012 12.75v-8.5zm1.5 0a.75.75 0 01.75-.75h11.5a.75.75 0 01.75.75v7.5a.75.75 0 01-.75.75H4.25a.75.75 0 01-.75-.75v-7.5z" clip-rule="evenodd" />
       </svg>
-clients:
-  - logo: images/brands/uideck.svg
-    url: https://uideck.com
-  - logo: images/brands/tailgrids.svg
-    url: https://tailgrids.com
-  - logo: images/brands/lineicons.svg
-    url: https://lineicons.com
-  - logo: images/brands/ayroui.svg
-    url: https://ayroui.com
-education_and_experiences: []
-testimonials: []
+    logo: /images/uploads/video-production-01.png
 ---

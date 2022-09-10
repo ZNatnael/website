@@ -1,14 +1,22 @@
 ---
-about_me_title: Better design, better experience & better results.
+about_me_title: About Me | Sharing My Experience
 profile_image: images/hero/nati-red.png
-title: Natnael Yared
-name: Natnael Yared
-profession: Public Relations Officer
-summary: Nisi dolor incididunt nisi nisi et mollit incididunt pariatur esse ut
-  dolore eiusmod. Exercitation consequat eiusmod occaecat ea aliqua ex
-  exercitation fugiat sunt ipsum eiusmod.
+title: Natnael Yared |Z Natnael
+name: Natnael Yared |Z Natnael
+profession: Digital Creator
+summary: A digital creator who strives to improve people's lives via the use of
+  technology; in charge of creating visually appealing and engaging content
+  which are developed to educate, entertain, motivate, experience and delight a
+  linked digital audience. I use my digital skills to develop creative content,
+  blogs, marketing copy, online posts, podcasts, videos, graphic designs, and
+  technology reviews in collaboration with my energetic team.
 profile_widget: /images/uploads/b1-01.png
-about_me_description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quisquam.
+about_me_description: >-
+  Passionate, creative, and performance-driven marketing professional and Civil
+  Engineer with over 5 years of experience in digital creation across CPG, media
+  & entertainment, social media management, and branding.
+
+  My abilities focus on Digital creativity, Content development, Digital marketing, and brand management. Aside from my career, finding something new to learn and enjoy is essential to me, whether it’s a challenging workout routine, making YouTube videos, or Disk Jockeying; my experiences help me in developing and nurturing my strength in the digital world and creativity. My ability to understand technology is continually evolving and this changing environment is what keeps me motivated.
 connect_with_me_title: Connect with me
 connect_with_me_description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quisquam.
 my_services_description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quisquam

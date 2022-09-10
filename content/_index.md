@@ -1,6 +1,10 @@
 ---
 about_me_title: Sharing My Experience
 profile_image: images/hero/nati-red.png
+happy_clients_description: Commodo qui commodo aliqua aute. Duis voluptate anim
+  velit adipisicing qui laboris quis cupidatat mollit. Laborum mollit irure
+  occaecat veniam esse. Ipsum consectetur cillum eu do nostrud ex tempor duis et
+  veniam cupidatat cillum enim.
 title: Natnael Yared | Z Natnael
 name: Natnael Yared | Z Natnael
 profession: Digital Creator
@@ -169,15 +173,11 @@ services:
       Video & testimonial films
 
       Digital channel placement
-    icon: >
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-      stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+    icon: >-
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+      fill="currentColor" class="w-5 h-5">
+        <path fill-rule="evenodd" d="M2 4.25A2.25 2.25 0 014.25 2h11.5A2.25 2.25 0 0118 4.25v8.5A2.25 2.25 0 0115.75 15h-3.105a3.501 3.501 0 001.1 1.677A.75.75 0 0113.26 18H6.74a.75.75 0 01-.484-1.323A3.501 3.501 0 007.355 15H4.25A2.25 2.25 0 012 12.75v-8.5zm1.5 0a.75.75 0 01.75-.75h11.5a.75.75 0 01.75.75v7.5a.75.75 0 01-.75.75H4.25a.75.75 0 01-.75-.75v-7.5z" clip-rule="evenodd" />
       </svg>
-happy_clients_description: Commodo qui commodo aliqua aute. Duis voluptate anim
-  velit adipisicing qui laboris quis cupidatat mollit. Laborum mollit irure
-  occaecat veniam esse. Ipsum consectetur cillum eu do nostrud ex tempor duis et
-  veniam cupidatat cillum enim.
 clients:
   - logo: images/brands/uideck.svg
     url: https://uideck.com
@@ -187,32 +187,6 @@ clients:
     url: https://lineicons.com
   - logo: images/brands/ayroui.svg
     url: https://ayroui.com
-education_and_experiences:
-  - title: UI/UX Designer
-    where: Google INC | New York
-    when: 2011 - 2013
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-      quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Quisquam, quisquam.
-  - title: Specialization Course
-    where: Stanford University | California
-    when: 2013 - 2015
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-      quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Quisquam, quisquam. Ad Lorem proident adipisicing exercitation.
-      Adipisicing proident aliqua aliquip nostrud incididunt ex do excepteur
-      consequat commodo irure reprehenderit cupidatat nisi.
-testimonials:
-  - logo: images/testimonial/lineicons.svg
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-      quisquam.
-    picture: images/testimonial/image-1.png
-    name: Musharof Chy
-    title: Founder @ LineIcons
-  - logo: images/testimonial/tailgrids.svg
-    description: Et qui tempor et Lorem eiusmod deserunt velit. Cillum veniam aliqua
-      ad duis qui.
-    picture: images/testimonial/image-2.png
-    name: Devid Sailio
-    title: Co-Founder @ TailGrids
+education_and_experiences: []
+testimonials: []
 ---

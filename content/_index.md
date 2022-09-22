@@ -79,7 +79,7 @@ services:
       0.666748ZM0.333496 27.3334V24.0001C0.333496 20.4668 5.85016 17.5667
       12.8335 17.3334C12.3002 18.6334 12.0002 20.0334 12.0002 21.5001C12.0002
       23.6501 12.6335 25.6668 13.6668 27.3334H0.333496Z" /></svg>
-    logo: /images/uploads/digital-marketing.png
+    logo: static/images/uploads/digital-marketing.png
   - title: Content Marketing
     description: >-
       Our dedicated team of writers, editors, and marketers are here to create

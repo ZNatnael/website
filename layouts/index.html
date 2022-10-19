@@ -1,8 +1,8 @@
 {{ define "main" }}
 <section id="home" class="ac a20 a1p[150px] lg:a1p[100px] 2xl:a6 a7 2xl:at[700px]">
   <div class="a9">
-    <div class="a6 a1t aa[-16px]">
-      <div class="a5 lg:a2i/2 a32 ad">
+    <div class="flex justify-start a1t aa[-16px]">
+      <div class="a5 lg:w-[60%] a32 ad">
         <div>
           <h1 class="aH a1P aJ a28">
             Hey There 👋 I am
@@ -13,19 +13,15 @@
           <h2 class="a1J a1K a1Q md:a1V a1H">
             <span class="aI">{{ .Params.profession }}</span>
           </h2>
-          <p class="aB[470px] a1J a1K aH a1R a35">
+          <p class=" a1J a1K text-base a35 w-full leading-7">
             {{ .Params.summary}}
           </p>
-          <div class="a6 a7">
-            <a href="javascript:void(0)" class="aH a1P a1g a1h a1j a1k a1I hover:a1m hover:a1n a1i a8 a19 a1o">
-              Contact Me
-            </a>
-          </div>
+          
         </div>
       </div>
       <div class="a5 lg:a2i/2 a36 ad">
         <div class="ac a37 lg:a38 a20 2xl:a1 2xl:a24 2xl:a39">
-          <img src="{{ .Params.profile_image }}" width="400" alt="image" class="af a21" />
+          <img src="{{ .Params.profile_image }}"  alt="image" class="af a21" />
           <span class="a1 a3a[-8px] a3b a25">
             <svg width="40" height="38" viewBox="0 0 40 38" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -38,6 +34,36 @@
     </div>
   </div>
   <div>
+    <span class="a1 a3 a3c a25">
+      <svg
+        width="48"
+        height="95"
+        viewBox="0 0 48 95"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="0.5"
+          cy="47.5"
+          r="47.5"
+          fill="url(#paint0_radial_6:121)"
+        />
+        <defs>
+          <radialGradient
+            id="paint0_radial_6:121"
+            cx="0"
+            cy="0"
+            r="1"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(0.5) rotate(90) scale(95)"
+          >
+            <stop stop-color="white" />
+            <stop offset="0.569" stop-color="#F0F4FD" />
+            <stop offset="0.993" stop-color="#D9E0F0" />
+          </radialGradient>
+        </defs>
+      </svg>
+    </span>
     <span class="a1 aZ a24 a25">
       <svg width="491" height="490" viewBox="0 0 491 490" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="356.5" cy="356.5" r="356.5" fill="url(#paint0_linear_6:37)" />
@@ -53,63 +79,47 @@
 </section>
 
 
-<section id="about" class="a1p[145px] a1q[120px] ac a20">
+<section id="about" class="a1p[145px] a1q[120px] ac a20 a3o[#f8f9ff]">
   <div class="a9">
     <div class="a6 a1t aa[-16px]">
-      <div class="a5 lg:a2i/2 xl:a2I/12 ad a1E lg:a2K">
-        <span class="a1f aJ a1Q md:a1V a28">
-          ABOUT ME
+      <div class="a5 lg:w-[84%]  ad a1E lg:a2K text-center m-auto">
+        <span class="font-semibold aJ a1Q md:a1V a28 ">
+          About Me
         </span>
-        <h2 class="aB[400px] a1f aI a1B sm:a1C md:a2k[45px] a1D sm:a1D md:a1D a1H">
+        <h2 class="a1f aI a1B sm:a1C md:a2k[45px] a1H mt-2  ">
           {{ .Params.about_me_title }}
         </h2>
-        <p class="aB[570px] a1J aH a1K">
+        <p class="max-w-[1060px] a1J text-base leading-[30px] a1K mx-auto mt-8">
           {{ .Params.about_me_description }}
         </p>
       </div>
-      <div class="a5 lg:a2i/2 xl:a2L/12 ad">
-        <h3 class="a1P aI a1U md:a1B a3d">
-          {{ .Params.connect_with_me_title }}
-        </h3>
-        <p class="a1J aH a1K a1x">
-          {{ .Params.connect_with_me_description }}
-        </p>
-        <div class="a6 a7">
-          <a href="javascript:void(0)"
-            class="a2c a2d a1N a1i a6 a7 a1u a3e a1s[#E5E8F2] a1K hover:a1h hover:a3f hover:a1g"
-            aria-label="social-link" name="social-link">
-            <svg width="7" height="14" viewBox="0 0 7 14" class="a1O">
-              <path
-                d="M6.50914 5.6H5.42429H5.03684V5.14839V3.74839V3.29677H5.42429H6.23793C6.45103 3.29677 6.62538 3.11613 6.62538 2.84516V0.451613C6.62538 0.203226 6.4704 0 6.23793 0H4.82374C3.29332 0 2.22783 1.26452 2.22783 3.13871V5.10323V5.55484H1.84038H0.523056C0.251842 5.55484 0 5.80323 0 6.16452V7.79032C0 8.10645 0.213097 8.4 0.523056 8.4H1.80164H2.18909V8.85161V13.3903C2.18909 13.7065 2.40218 14 2.71214 14H4.53315C4.64939 14 4.74625 13.9323 4.82374 13.8419C4.90123 13.7516 4.95935 13.5935 4.95935 13.4581V8.87419V8.42258H5.36617H6.23793C6.48977 8.42258 6.6835 8.24194 6.72224 7.97097V7.94839V7.92581L6.99346 6.36774C7.01283 6.20968 6.99345 6.02903 6.87722 5.84839C6.83848 5.73548 6.66412 5.62258 6.50914 5.6Z" />
-            </svg>
-          </a>
-          <a href="javascript:void(0)"
-            class="a2c a2d a1N a1i a6 a7 a1u a3e a1s[#E5E8F2] a1K hover:a1h hover:a3f hover:a1g"
-            aria-label="social-link" name="social-link">
-            <svg width="19" height="14" viewBox="0 0 19 14" class="a1O">
-              <path
-                d="M16.5892 2.41096L17.7333 1.09589C18.0645 0.739726 18.1548 0.465753 18.1849 0.328767C17.2817 0.821918 16.4387 0.986301 15.8968 0.986301H15.686L15.5656 0.876712C14.843 0.30137 13.9398 0 12.9763 0C10.8688 0 9.2129 1.58904 9.2129 3.42466C9.2129 3.53425 9.2129 3.69863 9.24301 3.80822L9.33333 4.35616L8.70107 4.32877C4.84731 4.21918 1.68602 1.20548 1.17419 0.684932C0.331183 2.05479 0.812903 3.36986 1.32473 4.19178L2.34839 5.72603L0.722581 4.90411C0.752688 6.05479 1.23441 6.9589 2.16774 7.61644L2.98064 8.16438L2.16774 8.46575C2.67957 9.86301 3.82366 10.4384 4.66667 10.6575L5.78064 10.9315L4.72688 11.589C3.04086 12.6849 0.933333 12.6027 0 12.5205C1.89677 13.726 4.15484 14 5.72043 14C6.89462 14 7.76774 13.8904 7.97849 13.8082C16.4086 12 16.8 5.15068 16.8 3.78082V3.58904L16.9806 3.47945C18.0043 2.60274 18.4258 2.13699 18.6667 1.86301C18.5763 1.89041 18.4559 1.94521 18.3355 1.9726L16.5892 2.41096Z" />
-            </svg>
-          </a>
-          <a href="javascript:void(0)"
-            class="a2c a2d a1N a1i a6 a7 a1u a3e a1s[#E5E8F2] a1K hover:a1h hover:a3f hover:a1g"
-            aria-label="social-link" name="social-link">
-            <svg width="19" height="14" viewBox="0 0 19 14" class="a1O">
-              <path
-                d="M18.2753 2.19355C18.0645 1.32258 17.4323 0.645161 16.6194 0.419355C15.1742 7.69092e-08 9.33333 0 9.33333 0C9.33333 0 3.49247 7.69092e-08 2.04731 0.419355C1.23441 0.645161 0.60215 1.32258 0.391398 2.19355C0 3.77419 0 7 0 7C0 7 0 10.2581 0.391398 11.8065C0.60215 12.6774 1.23441 13.3548 2.04731 13.5806C3.49247 14 9.33333 14 9.33333 14C9.33333 14 15.1742 14 16.6194 13.5806C17.4323 13.3548 18.0645 12.6774 18.2753 11.8065C18.6667 10.2581 18.6667 7 18.6667 7C18.6667 7 18.6667 3.77419 18.2753 2.19355ZM7.46667 10V4L12.314 7L7.46667 10Z" />
-            </svg>
-          </a>
-          <a href="javascript:void(0)"
-            class="a2c a2d a1N a1i a6 a7 a1u a3e a1s[#E5E8F2] a1K hover:a1h hover:a3f hover:a1g"
-            aria-label="social-link" name="social-link">
-            <svg width="14" height="14" viewBox="0 0 14 14" class="a1O">
-              <path
-                d="M13.0214 0H1.02084C0.453707 0 0 0.451613 0 1.01613V12.9839C0 13.5258 0.453707 14 1.02084 14H12.976C13.5432 14 13.9969 13.5484 13.9969 12.9839V0.993548C14.0422 0.451613 13.5885 0 13.0214 0ZM4.15142 11.9H2.08705V5.23871H4.15142V11.9ZM3.10789 4.3129C2.42733 4.3129 1.90557 3.77097 1.90557 3.11613C1.90557 2.46129 2.45002 1.91935 3.10789 1.91935C3.76577 1.91935 4.31022 2.46129 4.31022 3.11613C4.31022 3.77097 3.81114 4.3129 3.10789 4.3129ZM11.9779 11.9H9.9135V8.67097C9.9135 7.90323 9.89082 6.8871 8.82461 6.8871C7.73571 6.8871 7.57691 7.74516 7.57691 8.60322V11.9H5.51254V5.23871H7.53154V6.16452H7.55423C7.84914 5.62258 8.50701 5.08065 9.52785 5.08065C11.6376 5.08065 12.0232 6.43548 12.0232 8.2871V11.9H11.9779Z" />
-            </svg>
-          </a>
-        </div>
-      </div>
+   
     </div>
+  </div>
+  <div class="a1 aZ ak/2 -translate-y-1/2">
+    <svg
+      width="60"
+      height="120"
+      viewBox="0 0 60 120"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="60" cy="60" r="60" fill="url(#paint0_radial_18:24)" />
+      <defs>
+        <radialGradient
+          id="paint0_radial_18:24"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(60) rotate(90) scale(120)"
+        >
+          <stop stop-color="white" />
+          <stop offset="0.569" stop-color="#F0F4FD" />
+          <stop offset="0.993" stop-color="#D9E0F0" />
+        </radialGradient>
+      </defs>
+    </svg>
   </div>
 </section>
 
@@ -118,7 +128,7 @@
     <div class="a1p[120px] a1q[90px] a2r a1s[#E9ECF8]">
       <div class="a6 a1t aa[-16px]">
         <div class="a5 ad">
-          <div class="aB[600px] a21 a22 a3g[70px]">
+          <div class="max-w-[1060px] a21 a22 a3g[70px]">
             <span class="a1P a1Q aJ ag a1Y">
               What I Offer?
             </span>
@@ -126,7 +136,7 @@
                   ">
               My Services
             </h2>
-            <p class="a1J a1Q a1K">
+            <p class="max-w-[1060px] a1J text-base leading-[30px] mt-8 a1K">
               {{ .Params.my_services_description }}
             </p>
           </div>
@@ -134,15 +144,15 @@
       </div>
       <div class="a6 a1t aa[-16px]">
         {{ range .Params.services }}
-        <div class="a5 md:a2i/2 xl:a2i/4 ad">
-          <div class="az aG hover:a1h a3h a3i a1k a2R ac a20 a1w a22 a3j a1E">
+        <div class="a5 md:a2i/2 xl:w-[30%] ad ">
+          <div class="az aG hover:a1h a3h a3i a1k a2R ac a20 a1w a22 a3j a1E h-[390px]">
             <div class="a21 a3k a3l a3d a1i a1h a6 a7 a1u a1g group-hover:az group-hover:aJ">
               {{ .icon | safeHTML }}
             </div>
             <h3 class="a1f aI a1V sm:a1U lg:a1V 2xl:a1U group-hover:a1g a28">
               {{ .title }}
             </h3>
-            <p class="a1J a1K group-hover:a1g a1R a1a">
+            <p class="a1J a1K group-hover:a1g leading-7 text-[15px] line-clamp-6 mt-2">
               {{ .description }}
             </p>
             <div>
@@ -150,6 +160,100 @@
                 <svg width="218" height="109" viewBox="0 0 218 109" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle opacity="0.05" cx="156.5" cy="-47.5" r="156.5" fill="white" />
                   <circle opacity="0.08" cx="210" cy="6" r="62" fill="white" />
+                </svg>
+              </span>
+              <span class="a1 a3m a3n a25">
+                <svg
+                  width="23"
+                  height="32"
+                  viewBox="0 0 23 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="21.262"
+                    cy="1.12081"
+                    r="1.12081"
+                    transform="rotate(90 21.262 1.12081)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="21.262"
+                    cy="30.4863"
+                    r="1.12081"
+                    transform="rotate(90 21.262 30.4863)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.76005"
+                    cy="1.12081"
+                    r="1.12081"
+                    transform="rotate(90 1.76005 1.12081)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.76005"
+                    cy="30.4863"
+                    r="1.12081"
+                    transform="rotate(90 1.76005 30.4863)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="11.6228"
+                    cy="1.12081"
+                    r="1.12081"
+                    transform="rotate(90 11.6228 1.12081)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="11.6228"
+                    cy="30.4863"
+                    r="1.12081"
+                    transform="rotate(90 11.6228 30.4863)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="21.262"
+                    cy="10.9839"
+                    r="1.12081"
+                    transform="rotate(90 21.262 10.9839)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.76005"
+                    cy="10.9839"
+                    r="1.12081"
+                    transform="rotate(90 1.76005 10.9839)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="11.6228"
+                    cy="10.9839"
+                    r="1.12081"
+                    transform="rotate(90 11.6228 10.9839)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="21.262"
+                    cy="20.8469"
+                    r="1.12081"
+                    transform="rotate(90 21.262 20.8469)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.76005"
+                    cy="20.8469"
+                    r="1.12081"
+                    transform="rotate(90 1.76005 20.8469)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="11.6228"
+                    cy="20.8469"
+                    r="1.12081"
+                    transform="rotate(90 11.6228 20.8469)"
+                    fill="white"
+                  />
                 </svg>
               </span>
             </div>
@@ -166,43 +270,36 @@
     <div class="a6 a1t aa[-16px]">
       <div class="a5 ad">
         <div class="aB[570px] a21 a2J a22">
-          <h2 class="a1f a1B md:a1C a1g a2Vs">
+          <h2 class="a1f a1B md:a1C a1g a2V">
             Some of My Happy Clients
           </h2>
-          <!-- <p class="a1J a1Q a1K">
-            {{ .Params.happy_clients_description }}
-          </p> -->
+          <p class="a1J a1Q a1K">
+            There are many variations of passages of Lorem Ipsum available
+            but the majority have suffered alteration in some form.
+          </p>
         </div>
       </div>
+      
       <div class="a5 ad">
         <div class="a6 a1t a7 a1u wow fadeInUp" data-wow-delay=".1s">
           {{ range .Params.clients }}
+
           <a href="{{ .url }}" target="_blank" rel="nofollow noreferrer"
-            class="a6 a7 a1u aB[120px] lg:aB[130px] xl:aB[150px] 2xl:aB[160px] a3s sm:a3t xl:a3u 2xl:aN aq[15px] a3v hover:a3w a3x hover:a16 a8">
+            class="a6 a7 a1u aB[120px] lg:aB[130px] xl:aB[150px] 2xl:aB[160px] a3s sm:a3t xl:a3u 2xl:aN aq[15px] a3v hover:a3w a3x hover:a16 a8 object-contain" >
             <img src="{{ .logo }}" alt="uideck" />
           </a>
-          {{ end }}
+      {{ end}}
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
-<section class="a10[-160px]">
+<section class="a10[-160px]" id="service-banner">
   <div class="a9">
-    <div class="a1h a3q ac a1w a20 a22 aq[70px]">
-      <div class="aB[770px] a21 ay">
-        <h2 class="a1f a1g a1U md:a2k[40px] a1D a1x">
-          Want to work together and create amazing products with me?
-        </h2>
-        <form class="ac aB[480px] a21">
-          <input type="email" placeholder="Enter your email"
-            class="a5 a1i a3e a2s a3y[13%] az a2_[15%] a1k a3z a1g a3A a3B a3C focus-visible:aE focus:a3D a8 a22 sm:text-left a1H sm:a2K" />
-          <button class="az aJ a1i a1P aH a3z sm:aq[10px] a3p a5 sm:a3E sm:a1 a3F a3G">
-            Get a Quote
-          </button>
-        </form>
+    <div class="a1h a3q ac a1w a20 a22 aq[30px]">
+      <div class="w-full a21 ay">
+        <img src="images/brands/nati-web-banner.png" class="object-contain "/>
       </div>
       <div class="a1 a24 a3 aZ a5 a25">
         <svg width="818" height="286" viewBox="0 0 818 286" fill="none" xmlns="http://www.w3.org/2000/svg" class="a21">
@@ -230,7 +327,7 @@
   </div>
 </section>
 
-<section id="news" class="a1p[120px] a2Q a3o[#f8f9ff]">
+<section id="blog" class="a1p[120px] a2Q a3o[#f8f9ff]">
   <div class="a9">
     <div class="a6 a1t aa[-16px]">
       <div class="a5 ad">
@@ -248,15 +345,12 @@
                 ">
             From The Blog
           </h2>
-          <!-- <p class="a1J a1Q a1K">
-            There are many variations of passages of Lorem Ipsum available
-            but the majority have suffered alteration in some form.
-          </p> -->
+          
         </div>
       </div>
     </div>
     <div class="a6 a1t a2h">
-      <div class="a5 lg:a2i/2 xl:a2i/3 ad">
+      <div class="a5 lg:a2i/2 xl:a2i/3 ad transform transition duration-500 hover:scale-110">
         <div class="
                 az
                 a2R
@@ -277,7 +371,7 @@
                     The RMS TITANIC
               </a>
             </h3>
-            <p class="a1J a1K aH a2V">
+            <p class="a1J a1K aH a2V line-clamp-4">
               The primary reasons we fight in living our lives are passion, strength, love, and commitment. The Titanic had it all ........You may ask How?
             </p>
             <a href="#" class="
@@ -289,7 +383,7 @@
           </div>
         </div>
       </div>
-      <div class="a5 lg:a2i/2 xl:a2i/3 ad">
+      <div class="a5 lg:a2i/2 xl:a2i/3 ad transform transition duration-500 hover:scale-110">
         <div class="
                 az
                 a2R
@@ -310,7 +404,7 @@
                     " Dèjà " Vu conspiracy Revealed
               </a>
             </h3>
-            <p class="a1J a1K aH a2V">
+            <p class="a1J a1K aH a2V line-clamp-4">
               Deja Vu in French means "already SEEN " it's a sensation where what is happing to u @ that very moment has happened to u before; perhaps on a day u forgotten or in a dream or in a previous life.
             </p>
             <a href="#" class="
@@ -327,6 +421,319 @@
   </div>
 </section>
 
+<section id="youtube" class="a1p[120px] a2Q">
+  <div class="a9">
+    <div class="a6 a1t aa[-16px]">
+      <div class="a5 ad">
+        <div class="aB[600px] a21 a22 a3g[50px]">
+          <span class="
+                  a1P a1Q aJ ag a1Y
+                ">
+            Recent Videos
+          </span>
+          <h2 class="
+                  a1f aI a1B
+                  sm:a1C
+                  md:a2k[45px]
+                  a1H
+                ">
+            From Youtube
+          </h2>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="a6 a1t a2h">
+      <div class="a5 lg:a2i/2  ad">
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/djwUqNRD7xI" class=" a2R
+      
+        a1w">
+        </iframe>
+      </div>
+      <div class="a5 lg:a2i/2  ad  ">
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/zNJ85j9XtAU" class=" a2R
+      
+        a1w">
+        </iframe>
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+<section id="podcast" class="a1p[120px] a2Q a3o[#f8f9ff]">
+  <div class="a9">
+    <div class="a6 a1t aa[-16px]">
+      <div class="a5 ad">
+        <div class="aB[600px] a21 a22 a3g[50px]">
+          <span class="
+                  a1P a1Q aJ ag a1Y
+                ">
+            Recent Talk
+          </span>
+          <h2 class="
+                  a1f aI a1B
+                  sm:a1C
+                  md:a2k[45px]
+                  a1H
+                ">
+            From Podcast
+          </h2>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="a6 a1t a2h items-center">
+      <div class="my-auto a5 lg:a2i/2 xl:w-[37%]  ad transform transition duration-500 hover:scale-110">
+        <div class="
+
+        a2R
+      
+        a1w
+        a2S
+   
+      ">
+        <a href="#" class=" ">
+    <img src="https://aliabdaal.com/content/images/2022/08/Lauren-Razavi.jpeg" alt="image" class="a5 object-cover"/>
+       </a>
+
+</div>
+      </div>
+      <div class="a5 lg:a2i/2 xl:w-[37%] h-auto  ad transform transition duration-500 hover:scale-110">
+        <div class="
+     
+        a2R
+        a1w
+      
+        a2S
+   
+      ">
+  <a href="#" class="ag ">
+    <img src="https://aliabdaal.com/content/images/2022/08/Lauren-Razavi.jpeg" alt="image" class="a5 object-cover"/>
+  </a>
+
+</div>
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+<section id="testimonial" class="a1p[120px] a2Q">
+  <div class="a9">
+    <div class="a6 a1t aa[-16px]">
+      <div class="a5 ad">
+        <div class="aB[600px] a21 a22 a3g[50px]">
+          <span class="a1P a1Q aJ ag a1Y"> Awesome Testimonials </span>
+          <h2 class="a1f aI a1B sm:a1C md:a2k[45px] a1H">
+            Hear From My Clients
+          </h2>
+          
+        </div>
+      </div>
+    </div>
+    <div class="a6 a1t a2h">
+      <div class="a5 lg:a2i/2 ad">
+        <div class="az a2R ac a1w a3W sm:a3X a3Y a3Z a1x">
+          <div class="a1H">
+            <img
+              src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/lineicons.svg"
+              alt="lineicons"
+              class="a3_"
+            />
+          </div>
+          <p class="a1J a1Q a1K a1E">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales
+            erat a libero.
+          </p>
+          <div class="a6 a7 justify-start">
+            <div class="aB[60px] a5 at[60px] a1i a1w a1N">
+              <img
+                src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/image-1.png"
+                alt="image"
+                class="a5"
+              />
+            </div>
+            <div>
+              <h3 class="a1P aH aI a1L">Musharof Chy</h3>
+              <p class="a1a a1K">Founder @ LineIcons</p>
+            </div>
+          </div>
+          <div class="a1 a2A a2B">
+            <svg
+              width="51"
+              height="29"
+              viewBox="0 0 51 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.15">
+                <path
+                  d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                  fill="#4A6CF7"
+                />
+                <path
+                  d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                  fill="#4A6CF7"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="a5 lg:a2i/2 ad">
+        <div class="az a2R ac a1w a3W sm:a3X a3Y a3Z a1x">
+          <div class="a1H">
+            <img
+              src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/tailgrids.svg"
+              alt="tailgrids"
+              class="a40"
+            />
+          </div>
+          <p class="a1J a1Q a1K a1E">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales
+            erat a libero.
+          </p>
+          <div class="a6 a7 justify-start">
+            <div class="aB[60px] a5 at[60px] a1i a1w a1N">
+              <img
+                src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/image-2.png"
+                alt="image"
+                class="a5"
+              />
+            </div>
+            <div>
+              <h3 class="a1P aH aI a1L">Devid Sailio</h3>
+              <p class="a1a a1K">Founder @ TailGrids</p>
+            </div>
+          </div>
+          <div class="a1 a2A a2B">
+            <svg
+              width="51"
+              height="29"
+              viewBox="0 0 51 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.15">
+                <path
+                  d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                  fill="#4A6CF7"
+                />
+                <path
+                  d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                  fill="#4A6CF7"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="a5 lg:a2i/2 ad">
+        <div class="az a2R ac a1w a3W sm:a3X a3Y a3Z a1x">
+          <div class="a1H">
+            <img
+              src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/ayroui.svg"
+              alt="ayroui"
+              class="a40"
+            />
+          </div>
+          <p class="a1J a1Q a1K a1E">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales
+            erat a libero.
+          </p>
+          <div class="a6 a7 justify-start">
+            <div class="aB[60px] a5 at[60px] a1i a1w a1N">
+              <img
+                src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/image-3.png"
+                alt="image"
+                class="a5"
+              />
+            </div>
+            <div>
+              <h3 class="a1P aH aI a1L">Jenifer Lofeez</h3>
+              <p class="a1a a1K">Founder @ Ayro UI</p>
+            </div>
+          </div>
+          <div class="a1 a2A a2B">
+            <svg
+              width="51"
+              height="29"
+              viewBox="0 0 51 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.15">
+                <path
+                  d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                  fill="#4A6CF7"
+                />
+                <path
+                  d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                  fill="#4A6CF7"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="a5 lg:a2i/2 ad">
+        <div class="az a2R ac a1w a3W sm:a3X a3Y a3Z a1x">
+          <div class="a1H">
+            <img
+              src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/uideck.svg"
+              alt="uideck"
+              class="a40"
+            />
+          </div>
+          <p class="a1J a1Q a1K a1E">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales
+            erat a libero.
+          </p>
+          <div class="a6 a7 justify-start">
+            <div class="aB[60px] a5 at[60px] a1i a1w a1N">
+              <img
+                src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/image-4.png"
+                alt="image"
+                class="a5"
+              />
+            </div>
+            <div>
+              <h3 class="a1P aH aI a1L">Justin Herry</h3>
+              <p class="a1a a1K">Founder @ UIdeck</p>
+            </div>
+          </div>
+          <div class="a1 a2A a2B">
+            <svg
+              width="51"
+              height="29"
+              viewBox="0 0 51 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.15">
+                <path
+                  d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                  fill="#4A6CF7"
+                />
+                <path
+                  d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                  fill="#4A6CF7"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="contact" class="aq[120px]">
   <div class="a9">
@@ -419,6 +826,8 @@
 <script src="js/isotope.min.js"></script>
 <script src="js/images-loaded.js"></script>
 <script src="js/main.js"></script>
+
+</script>
 <script>
   // ==== for menu scroll
   const pageLink = document.querySelectorAll(".menu-scroll");

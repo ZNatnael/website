@@ -1,0 +1,4 @@
+node_modules
+.*
+!/.gitignore
+.hugo_build.lock

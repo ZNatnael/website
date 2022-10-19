@@ -26,6 +26,15 @@ clients:
     url: https://lineicons.com
   - logo: images/brands/ayroui.svg
     url: https://ayroui.com
+  - logo: images/brands/uideck.svg
+    url: https://uideck.com
+  - logo: images/brands/tailgrids.svg
+    url: https://tailgrids.com
+  - logo: images/brands/lineicons.svg
+    url: https://lineicons.com
+  - logo: images/brands/ayroui.svg
+    url: https://ayroui.com
+
 education_and_experiences: []
 title: Natnael Yared | Z Natnael
 name: Natnael Yared | Z Natnael
@@ -89,7 +98,8 @@ services:
       It is said that good marketing is like sanctioned vandalism. You want
       people to notice it, engage with it, and have opinions about it.
       Otherwise, all that work is irrelevant.
-    icon: <svg width="40" height="25" viewBox="0 0 40 25" class="a1O"><path d="M20
+    icon:
+      <svg width="40" height="25" viewBox="0 0 40 25" class="a1O"><path d="M20
       0.166748C21.5471 0.166748 23.0308 0.78133 24.1248 1.87529C25.2188 2.96925
       25.8333 4.45298 25.8333 6.00008C25.8333 7.54718 25.2188 9.03091 24.1248
       10.1249C23.0308 11.2188 21.5471 11.8334 20 11.8334C18.4529 11.8334 16.9692
@@ -124,7 +134,8 @@ services:
       /></svg>
     logo: /images/uploads/influencer-and-social-media-marketing.png
   - title: Video & media production
-    description: With backgrounds in film and television, our team of creatives has
+    description:
+      With backgrounds in film and television, our team of creatives has
       the experience you need to create compelling and engaging video and
       commercial media.
     icon: >-

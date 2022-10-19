@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/glightbox.min.css" />
     <link rel="stylesheet" href="css/tailwind.css" />
+    {{ $style := resources.Get "style.css" }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
   </head>
 
   <body>
@@ -66,6 +68,30 @@
                       class="menu-scroll aH aI group-hover:aJ aK lg:ah lg:aL lg:aM a6 aN lg:aO lg:aP xl:aQ"
                     >
                       Contact
+                    </a>
+                  </li>
+                  <li class="ac aG">
+                    <a
+                      href="index.html#contact"
+                      class="menu-scroll aH aI group-hover:aJ aK lg:ah lg:aL lg:aM a6 aN lg:aO lg:aP xl:aQ"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li class="ac aG">
+                    <a
+                      href="index.html#contact"
+                      class="menu-scroll aH aI group-hover:aJ aK lg:ah lg:aL lg:aM a6 aN lg:aO lg:aP xl:aQ"
+                    >
+                      Youtube
+                    </a>
+                  </li>
+                  <li class="ac aG">
+                    <a
+                      href="index.html#contact"
+                      class="menu-scroll aH aI group-hover:aJ aK lg:ah lg:aL lg:aM a6 aN lg:aO lg:aP xl:aQ"
+                    >
+                      Podcast
                     </a>
                   </li>
                 </ul>

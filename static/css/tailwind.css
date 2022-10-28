@@ -664,6 +664,44 @@ video {
   }
 }
 
+.client {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media (min-width: 540px) {
+  .client {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 720px) {
+  .client {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 960px) {
+  .client {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .client {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .client {
+    min-width: 1320px;
+  }
+}
+
 .a15 {
   visibility: hidden;
 }

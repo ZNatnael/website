@@ -2,7 +2,7 @@
 <section id="home" class="ac a20 a1p[150px] lg:a1p[100px] 2xl:a6 a7 2xl:at[700px]">
   <div class="a9">
     <div class="flex justify-start a1t aa[-16px]">
-      <div class="a5 lg:w-[60%] a32 ad">
+      <div class="a5 lg:w-[50%] xl:w-[60%] a32 ad">
         <div>
           <h1 class="aH a1P aJ a28">
             Hey There 👋 I am
@@ -19,7 +19,7 @@
           
         </div>
       </div>
-      <div class="a5 lg:a2i/2 a36 ad">
+      <div class="a5 lg:w-[50%] xl:w-[40%] a36 ad">
         <div class="ac a37 lg:a38 a20 2xl:a1 2xl:a24 2xl:a39">
           <img src="{{ .Params.profile_image }}"  alt="image" class="af a21" />
           <span class="a1 a3a[-8px] a3b a25">
@@ -89,38 +89,14 @@
         <h2 class="a1f aI a1B sm:a1C md:a2k[45px] a1H mt-2  ">
           {{ .Params.about_me_title }}
         </h2>
-        <p class="max-w-[1060px] a1J text-base leading-[30px] a1K mx-auto mt-8">
+        <p class="max-w-[1060px] a1J text-base leading-[30px] a1K mx-auto mt-8 z-50">
           {{ .Params.about_me_description }}
         </p>
       </div>
    
     </div>
   </div>
-  <div class="a1 aZ ak/2 -translate-y-1/2">
-    <svg
-      width="60"
-      height="120"
-      viewBox="0 0 60 120"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <circle cx="60" cy="60" r="60" fill="url(#paint0_radial_18:24)" />
-      <defs>
-        <radialGradient
-          id="paint0_radial_18:24"
-          cx="0"
-          cy="0"
-          r="1"
-          gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(60) rotate(90) scale(120)"
-        >
-          <stop stop-color="white" />
-          <stop offset="0.569" stop-color="#F0F4FD" />
-          <stop offset="0.993" stop-color="#D9E0F0" />
-        </radialGradient>
-      </defs>
-    </svg>
-  </div>
+
 </section>
 
 <section id="services">
@@ -266,29 +242,177 @@
 
 
 <section id="clients" class="a3r a1q[250px] a2f ac">
-  <div class="a9">
+  <div class="client">
     <div class="a6 a1t aa[-16px]">
       <div class="a5 ad">
         <div class="aB[570px] a21 a2J a22">
           <h2 class="a1f a1B md:a1C a1g a2V">
-            Some of My Happy Clients
+            Some of Client Projects
           </h2>
-          <p class="a1J a1Q a1K">
-            There are many variations of passages of Lorem Ipsum available
-            but the majority have suffered alteration in some form.
-          </p>
+         
         </div>
       </div>
       
-      <div class="a5 ad">
-        <div class="a6 a1t a7 a1u wow fadeInUp" data-wow-delay=".1s">
-          {{ range .Params.clients }}
+      <div class="a6 a1t mx-10 gap-5 pt-16">
+        <div class="a5 md:a2i/2 xl:w-[30%] ad   transform transition duration-500 hover:scale-110 ">
+          <div class="
+                  az
+                  a2R
+                  a1w
+                  a1x
+                  a2S
+                ">
+            <a href="#" class="ag">
+              <img src="images/news/news-1.jpg" alt="image" class="a5" />
+            </a>
+            
+            <div class="ai px-7 sm:a2T bg-white" >
+             
+              <h3>
+                <a href="#" class="
+                        a1P a1V aI
+                        hover:aJ
+                        ag a28 a2U
 
-          <a href="{{ .url }}" target="_blank" rel="nofollow noreferrer"
-            class="a6 a7 a1u aB[120px] lg:aB[130px] xl:aB[150px] 2xl:aB[160px] a3s sm:a3t xl:a3u 2xl:aN aq[15px] a3v hover:a3w a3x hover:a16 a8 object-contain" >
-            <img src="{{ .logo }}" alt="uideck" />
-          </a>
-      {{ end}}
+                      ">
+                      The RMS TITANIC
+                </a>
+              </h3>
+              <p class="a1J a1K aH a2V leading-7 line-clamp-10">
+                The primary reasons we fight in living our lives are passion, strength, love, and commitment. The Titanic had it all ........You may ask How?
+                The primary reasons we fight in living our lives are passion, strength, love, and commitment. The Titanic had it all ........You may ask How?
+                The primary reasons we fight in living our lives are passion, strength, love, and commitment. The Titanic had it all ........You may ask How?
+                u @ that very moment has happened to u before; perhaps on a day u forgotten or in a dream or in a previous life.
+              </p>
+              <div class="flex justify-end pt-5">
+
+                <img
+                src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/lineicons.svg"
+                alt="lineicons"
+                class="a3_"
+              />
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="a5 md:a2i/2 xl:w-[30%] transform transition duration-500 hover:scale-110 ad">
+          <div class="
+                  az
+                  a2R
+                  a1w
+                  a1x
+                  a2S
+                ">
+            <a href="#" class="ag">
+              <img src="images/news/news-2.jpg" alt="image" class="a5" />
+            </a>
+            <div class="ai px-7 sm:a2T bg-white">
+              <h3>
+                <a href="#" class="
+                        a1P a1V aI
+                        hover:aJ
+                        ag a28 a2U
+                      ">
+                      " Dèjà " Vu conspiracy Revealed
+                </a>
+              </h3>
+              <p class="a1J a1K aH a2V leading-7 line-clamp-10">
+                Deja Vu in French means "already SEEN " it's a sensation where what is happing to u @ that very moment has happened to u before; perhaps on a day u forgotten or in a dream or in a previous life.
+                Deja Vu in French means "already SEEN " it's a sensation where what is happing to u @ that very moment has happened to u before; perhaps on a day u forgotten or in a dream or in a previous life.
+                u @ that very moment has happened to u before; perhaps on a day u forgotten or in a dream or in a previous life.
+              </p>
+              <div class="flex justify-end pt-5">
+
+                <img
+                src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/lineicons.svg"
+                alt="lineicons"
+                class="a3_"
+              />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="a5 md:a2i/2 xl:w-[30%] ad transform transition duration-500 hover:scale-110">
+          <div class="
+                  az
+                  a2R
+                  a1w
+                  a1x
+                  a2S
+                ">
+            <a href="#" class="ag">
+              <img src="images/news/news-1.jpg" alt="image" class="a5" />
+            </a>
+            
+            <div class="ai px-7 sm:a2T bg-white" >
+             
+              <h3>
+                <a href="#" class="
+                        a1P a1V aI
+                        hover:aJ
+                        ag a28 a2U
+
+                      ">
+                      The RMS TITANIC
+                </a>
+              </h3>
+              <p class="a1J a1K aH a2V leading-7 line-clamp-10 ">
+                The primary reasons we fight in living our lives are passion, strength, love, and commitment. The Titanic had it all ........You may ask How?
+                The primary reasons we fight in living our lives are passion, strength, love, and commitment. The Titanic had it all ........You may ask How?
+                The primary reasons we fight in living our lives are passion, strength, love, and commitment. The Titanic had it all ........You may ask How?
+                u @ that very moment has happened to u before; perhaps on a day u forgotten or in a dream or in a previous life.
+              </p>
+              <div class="flex justify-end pt-5">
+
+                <img
+                src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/lineicons.svg"
+                alt="lineicons"
+                class="a3_"
+              />
+              </div>
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="a5 md:a2i/2 xl:w-[30%] transform transition duration-500 hover:scale-110 ad">
+          <div class="
+                  az
+                  a2R
+                  a1w
+                  a1x
+                  a2S
+                ">
+            <a href="#" class="ag">
+              <img src="images/news/news-2.jpg" alt="image" class="a5" />
+            </a>
+            <div class="ai px-7 sm:a2T bg-white">
+              <h3>
+                <a href="#" class="
+                        a1P a1V aI
+                        hover:aJ
+                        ag a28 a2U
+                      ">
+                      " Dèjà " Vu conspiracy Revealed
+                </a>
+              </h3>
+              <p class="a1J a1K aH a2V leading-7 line-clamp-10">
+                Deja Vu in French means "already SEEN " it's a sensation where what is happing to u @ that very moment has happened to u before; perhaps on a day u forgotten or in a dream or in a previous life.
+                Deja Vu in French means "already SEEN " it's a sensation where what is happing to u @ that very moment has happened to u before; perhaps on a day u forgotten or in a dream or in a previous life.
+                u @ that very moment has happened to u before; perhaps on a day u forgotten or in a dream or in a previous life.
+              </p>
+              <div class="flex justify-end pt-5">
+
+                <img
+                src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/testimonial/lineicons.svg"
+                alt="lineicons"
+                class="a3_"
+              />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -349,7 +473,7 @@
         </div>
       </div>
     </div>
-    <div class="a6 a1t a2h">
+    <div class="a6 a1t a2h gap-5">
       <div class="a5 lg:a2i/2 xl:a2i/3 ad transform transition duration-500 hover:scale-110">
         <div class="
                 az
@@ -418,6 +542,28 @@
       </div>
     
     </div>
+    <div class="a5 ad">
+      <div class="a42 a22">
+        <button class="
+                aL
+                a1u
+                a7
+                a3z
+                a1l
+                a1i
+                a1P
+                a1g
+                a1h
+                a21
+                a8
+                a19
+                a1o
+                hover:a1m hover:a1n
+              ">
+          More blogs
+        </button>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -459,64 +605,28 @@
       </div>
     
     </div>
-  </div>
-</section>
 
-<section id="podcast" class="a1p[120px] a2Q a3o[#f8f9ff]">
-  <div class="a9">
-    <div class="a6 a1t aa[-16px]">
-      <div class="a5 ad">
-        <div class="aB[600px] a21 a22 a3g[50px]">
-          <span class="
-                  a1P a1Q aJ ag a1Y
-                ">
-            Recent Talk
-          </span>
-          <h2 class="
-                  a1f aI a1B
-                  sm:a1C
-                  md:a2k[45px]
-                  a1H
-                ">
-            From Podcast
-          </h2>
-          
-        </div>
+    <div class="a5 ad mt-10">
+      <div class="a42 a22">
+        <button class="
+                aL
+                a1u
+                a7
+                a3z
+                a1l
+                a1i
+                a1P
+                a1g
+                a1h
+                a21
+                a8
+                a19
+                a1o
+                hover:a1m hover:a1n
+              ">
+          More videos
+        </button>
       </div>
-    </div>
-
-    <div class="a6 a1t a2h items-center">
-      <div class="my-auto a5 lg:a2i/2 xl:w-[37%]  ad transform transition duration-500 hover:scale-110">
-        <div class="
-
-        a2R
-      
-        a1w
-        a2S
-   
-      ">
-        <a href="#" class=" ">
-    <img src="https://aliabdaal.com/content/images/2022/08/Lauren-Razavi.jpeg" alt="image" class="a5 object-cover"/>
-       </a>
-
-</div>
-      </div>
-      <div class="a5 lg:a2i/2 xl:w-[37%] h-auto  ad transform transition duration-500 hover:scale-110">
-        <div class="
-     
-        a2R
-        a1w
-      
-        a2S
-   
-      ">
-  <a href="#" class="ag ">
-    <img src="https://aliabdaal.com/content/images/2022/08/Lauren-Razavi.jpeg" alt="image" class="a5 object-cover"/>
-  </a>
-
-</div>
-      </div>
-    
     </div>
   </div>
 </section>
